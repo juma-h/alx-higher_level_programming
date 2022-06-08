@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    new = []
-    for i in matrix:
-        new.append([j ** 2 for j in i])
-    return new
+    if not matrix:
+        return None
+    return list(list(map(lambda a: a*a, num_list)) for num_list in matrix)
