@@ -13,5 +13,5 @@
 //
 //Jojo = Dog("Jojo", 10)
 //print(Jojo)
-//print(Jojo.name)
-//print(Jojo.age)
+// print(Jojo.name)
+// print(Jojo.age)

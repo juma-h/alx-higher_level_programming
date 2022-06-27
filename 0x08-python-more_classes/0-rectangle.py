@@ -3,6 +3,5 @@ i#!/usr/bin/python3
 
 
 class Rectangle:
-    """Class that defines properties of rectangle.
-    """
+    """Represensts a rectangle"""
     pass
