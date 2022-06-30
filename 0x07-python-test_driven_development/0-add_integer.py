@@ -1,16 +1,26 @@
 #!/usr/bin/python3
-"""Module containing a dummy adder function for testing"""
+"""
+Function that adds 2 integers
+"""
 
 
 def add_integer(a, b=98):
-    """ adds integers
-        Arguments:
-        @a: first integer
-        @b: second integer, defaults to 98 if not given
-    """
+    """Adds two integers and/or float numbers
 
-    if type(a) not in [int, float]:
+    Args:
+        a (int, float): First number
+        b (int, float): Second inumber
+
+    Returns:
+        Sum of the two given values
+
+    Raises:
+        TypeError: If a or b arent integer and/or float numbers
+
+    """
+    if not isinstance(a, int) and not isinstance(a, float):
         raise TypeError("a must be an integer")
-    if type(b) not in [int, float]:
+    if isinstance(b, int) is False and isinstance(b, float) is False:
         raise TypeError("b must be an integer")
+
     return int(a) + int(b)
