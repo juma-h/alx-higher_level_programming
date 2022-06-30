@@ -1,8 +1,9 @@
+
 ===========================
 How to Use 0-add_integer.py
 ===========================
-This module defines an integer addition function ``add_integer(a, b=98)``.
 
+This module defines an integer addition function ``add_integer(a, b=98)``.
 
 Usage
 =====
@@ -105,9 +106,9 @@ The function will fail if infinity is provided.
 ::
 
     >>> add_integer(2, float('inf'))
-
     Traceback (most recent call last):
     OverflowError: cannot convert float infinity to integer
+
 And again with NaN numbers.
 
 ::
